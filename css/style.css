@@ -145,3 +145,23 @@ label{
     font-size: 24px;
     color: #bbcdff;
 }
+/* customers */
+.cust-backg{
+    background-color: #f3f5f9;
+}
+.customersh5{
+    color: gray;
+    padding-top: 20px;
+}
+.customers-stories a{
+    padding-bottom: 10px;
+}
+.customers-logos .customers li{
+    width: calc((100% / 6) - 4px);
+  }
+
+@media all and (max-width: 767px) {
+.customers-logos .customers li{
+    width: calc((100% / 2) - 4px);
+    }
+}
