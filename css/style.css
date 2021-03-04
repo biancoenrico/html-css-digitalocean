@@ -10,11 +10,15 @@ img{
     max-width: 85%;
     margin: auto;
 }
-.wrapper60{
-    max-width: 60%;
+.wrapper75{
+    max-width: 75%;
     margin: auto;
 }
+.void{
+    padding-bottom: 10%;
+}
 /* font style */
+
 h2 , h1{
     margin: 0;
     padding: 5px;
@@ -26,7 +30,10 @@ h2 , h1{
     color: #2285fd;
 }
 .black{
-    color: #0c2453;
+    color: #031c4e;
+}
+.gray{
+    color: gray;
 }
 
 
@@ -148,13 +155,11 @@ label{
 /* customers */
 .cust-backg{
     background-color: #f3f5f9;
+    padding-bottom: 50px;
 }
 .customersh5{
     color: gray;
     padding-top: 20px;
-}
-.customers-stories a{
-    padding-bottom: 10px;
 }
 .customers-logos .customers li{
     width: calc((100% / 6) - 4px);
@@ -164,4 +169,33 @@ label{
 .customers-logos .customers li{
     width: calc((100% / 2) - 4px);
     }
+}
+/* features */
+.features{
+    padding: 30px 0;
+}
+.features-list {
+    text-align: left;
+}
+.features-list li{
+    display: block;
+    padding: 10px 0;
+    padding-left: 10px;
+    color: gray;
+    border-left: 1px solid gray;
+    font-size: 22px;
+}
+.features img{
+    height: 50px;
+    width: auto;
+    vertical-align: middle;
+}
+.features h4{
+    padding: 5px 0;
+}
+.features > p{
+    font-size: 22px;
+}
+.container-img{
+    padding-top: 10%;
 }
