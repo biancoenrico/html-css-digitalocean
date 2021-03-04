@@ -30,7 +30,7 @@ h2 , h1{
     color: #2285fd;
 }
 .black{
-    color: #031c4e;
+    color: #092152;
 }
 .gray{
     color: gray;
@@ -193,9 +193,42 @@ label{
 .features h4{
     padding: 5px 0;
 }
-.features > p{
+.features > p , .slide-wrap > p{
     font-size: 22px;
 }
 .container-img{
     padding-top: 10%;
+}
+/* slide section */
+.bg-slide{
+    background-color: #f3f5f9;
+    padding: 5% 0;
+}
+.red{
+    background-color: rebeccapurple;
+    height: 500px;
+    padding-bottom: 50px;
+}
+.che{
+    line-height: 450px;
+    font-size: 38px;
+}
+.chevron-left{
+    text-align: right;
+}
+.chevron-right{
+    text-align: left;
+}
+.slide-padding-top{
+    padding-top: 30px;
+}
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #006aff;
+    display: inline-block;
+}
+.blue{
+    background-color: #006aff;
 }
