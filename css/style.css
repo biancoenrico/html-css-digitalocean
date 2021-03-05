@@ -3,9 +3,7 @@ body{
     min-width: 320px;
 }
 /* common */
-img{
-    width: 100%;
-}
+
 .wrapper85{
     max-width: 85%;
     margin: auto;
@@ -14,8 +12,8 @@ img{
     max-width: 75%;
     margin: auto;
 }
-.void{
-    padding-bottom: 10%;
+.h2-padd{
+    padding-bottom: 20px;
 }
 /* font style */
 
@@ -26,7 +24,7 @@ h2 , h1{
 .bold{
     font-weight: bold;
 }
-.blue{
+.blue-text{
     color: #2285fd;
 }
 .black{
@@ -185,11 +183,6 @@ label{
     border-left: 1px solid gray;
     font-size: 22px;
 }
-.features img{
-    height: 50px;
-    width: auto;
-    vertical-align: middle;
-}
 .features h4{
     padding: 5px 0;
 }
@@ -231,4 +224,30 @@ label{
 }
 .blue{
     background-color: #006aff;
+}
+/* future secttion */
+.future h2{
+    padding: 50px 0;
+}
+.future .wrapper85{
+    padding-bottom: 50px;
+}
+/* speed test section */
+.speed-test-row{
+    padding: 50px 0;
+}
+.speed-test {
+    background: linear-gradient( #0047c5, #001f9a );
+    color: white;
+}
+.speed-test .row{
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+    margin: 0 5px;
+}
+.speed-test .row:last-child{
+    border-bottom: 0;
+}
+.speed-test a{
+    color: #04c1cc;
 }
