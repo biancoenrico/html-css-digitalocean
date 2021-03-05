@@ -279,3 +279,29 @@ label{
     color: #006aff;
 
 }
+/* footer */
+footer li{
+    display: block;
+}
+footer li a{
+    color: #979fb2;
+}
+footer{
+    color: white;
+    background-color: #031c4e;
+    padding: 50px 0;
+}
+footer .text{
+    color: #7d879f;
+    padding-top: 10px;
+}
+footer .secondary-text{
+    color: #586785;
+}
+.social{
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 8px;
+    padding-bottom: 15px;
+    color: #7d879f;
+}
