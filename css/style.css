@@ -15,6 +15,7 @@ body{
 .h2-padd{
     padding-bottom: 20px;
 }
+
 /* font style */
 
 h2 , h1{
@@ -250,4 +251,31 @@ label{
 }
 .speed-test a{
     color: #04c1cc;
+}
+/* rockerbox section */
+.rockerbox{
+    padding: 20% 5%;
+    background-color: white;
+}
+.rockerbox-slide .che{
+    line-height: 370px;
+}
+.we-have , .creator{
+    font-size: 20px;
+}
+.rockerbox small{
+    font-size: 16px;
+}
+/* get started section */
+.get-started{
+    color: white;
+    padding:5%;
+    background-color: #002da7;
+}
+.get-started h2{
+    padding-bottom: 30px;
+}
+.get-started .btn-default{
+    color: #006aff;
+
 }
